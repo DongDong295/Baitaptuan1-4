@@ -13,8 +13,10 @@
         android:theme="@style/Theme.Tinhtongintent"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity22listview"
-            android:exported="true" >
+            android:name=".BaiTapTuan3"
+            android:exported="true"
+            android:label="@string/title_activity_bai_tap_tuan3"
+            android:theme="@style/Theme.Tinhtongintent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,11 +24,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity22listview"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".MainActivity2"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
     </application>
 
 </manifest>
