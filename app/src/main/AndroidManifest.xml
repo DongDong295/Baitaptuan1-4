@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +14,8 @@
         android:theme="@style/Theme.Tinhtongintent"
         tools:targetApi="31">
         <activity
-            android:name=".BaiTapTuan3"
-            android:exported="true"
-            android:label="@string/title_activity_bai_tap_tuan3"
-            android:theme="@style/Theme.Tinhtongintent">
+            android:name="Tuan4.Tuan4MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,20 +23,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity22listview"
-            android:exported="true">
-
+            android:name="Tuan4.Tuan4Main"
+            android:exported="false" />
+        <activity
+            android:name=".BaiTapTuan3"
+            android:exported="true"
+            android:label="@string/title_activity_bai_tap_tuan3"
+            android:theme="@style/Theme.Tinhtongintent">
         </activity>
+        <activity
+            android:name=".MainActivity22listview"
+            android:exported="true" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
