@@ -24,7 +24,8 @@
         </activity>
         <activity
             android:name="Tuan4.Tuan4Main"
-            android:exported="false" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".BaiTapTuan3"
             android:exported="true"
@@ -33,13 +34,15 @@
         </activity>
         <activity
             android:name=".MainActivity22listview"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
     </application>
 
 </manifest>
